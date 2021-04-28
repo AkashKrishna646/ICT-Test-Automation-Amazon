@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Akash]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestCase(failed)" verbose="0">
+    <classes>
+      <class name="TestScript.SaveForLaterTest">
+        <methods>
+          <include name="SaveforLater"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.SaveForLaterTest -->
+      <class name="TestScript.AddCartTestScript">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- TestScript.AddCartTestScript -->
+      <class name="TestScript.NaviToPrdtDetailPageTest">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- TestScript.NaviToPrdtDetailPageTest -->
+      <class name="TestScript.RemoveFromCartTestScript">
+        <methods>
+          <include name="removeFROMcart"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.RemoveFromCartTestScript -->
+      <class name="TestScript.SortPriceHightoLowTestScript">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+          <include name="Sort"/>
+        </methods>
+      </class> <!-- TestScript.SortPriceHightoLowTestScript -->
+      <class name="TestScript.SearchTestScript">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+          <include name="validatsrch"/>
+        </methods>
+      </class> <!-- TestScript.SearchTestScript -->
+      <class name="TestScript.ValidPincodeTestScript">
+        <methods>
+          <include name="pincodevalidate"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.ValidPincodeTestScript -->
+      <class name="TestScript.InvalidloginTest">
+        <methods>
+          <include name="invalidlogin"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.InvalidloginTest -->
+      <class name="TestScript.LoginTestS">
+        <methods>
+          <include name="validateLogin"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.LoginTestS -->
+      <class name="TestScript.InvalidPincodeTestScript">
+        <methods>
+          <include name="InValidPincode"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.InvalidPincodeTestScript -->
+      <class name="TestScript.ProductDetailsTest">
+        <methods>
+          <include name="prdtvalidatsrch"/>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+        </methods>
+      </class> <!-- TestScript.ProductDetailsTest -->
+      <class name="TestScript.PasswordChangeTestScript">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="Closebrowser"/>
+          <include name="initalExtendReport"/>
+          <include name="ChangePassword"/>
+        </methods>
+      </class> <!-- TestScript.PasswordChangeTestScript -->
+    </classes>
+  </test> <!-- TestCase(failed) -->
+</suite> <!-- Failed suite [Akash] -->

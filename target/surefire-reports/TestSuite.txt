@@ -1,0 +1,376 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 12, Errors: 0, Skipped: 24, Time elapsed: 12.159 s <<< FAILURE! - in TestSuite
+TestScript.LoginTestS.openbrowser  Time elapsed: 4.826 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.InvalidloginTest.openbrowser  Time elapsed: 0.586 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.SearchTestScript.openbrowser  Time elapsed: 0.606 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.ProductDetailsTest.openbrowser  Time elapsed: 0.611 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.RemoveFromCartTestScript.openbrowser  Time elapsed: 0.606 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.ValidPincodeTestScript.openbrowser  Time elapsed: 0.558 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.InvalidPincodeTestScript.openbrowser  Time elapsed: 0.583 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.SortPriceHightoLowTestScript.openbrowser  Time elapsed: 0.627 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.NaviToPrdtDetailPageTest.openbrowser  Time elapsed: 0.59 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.SaveForLaterTest.openbrowser  Time elapsed: 0.617 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.AddCartTestScript.openbrowser  Time elapsed: 0.616 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
+TestScript.PasswordChangeTestScript.openbrowser  Time elapsed: 0.617 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-R89UIF8', ip: '192.168.29.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CF87E3+2852835]
+	Ordinal0 [0x00BE5BB1+1727409]
+	Ordinal0 [0x00ABE4B9+517305]
+	Ordinal0 [0x00A4CA98+51864]
+	Ordinal0 [0x00A6D9F7+186871]
+	Ordinal0 [0x00A6D7FD+186365]
+	Ordinal0 [0x00A6B70B+177931]
+	Ordinal0 [0x00A52584+75140]
+	Ordinal0 [0x00A53650+79440]
+	Ordinal0 [0x00A535E9+79337]
+	Ordinal0 [0x00BFAD5C+1813852]
+	GetHandleVerifier [0x00E1C616+1075574]
+	GetHandleVerifier [0x00E1C367+1074887]
+	GetHandleVerifier [0x00E27497+1120247]
+	GetHandleVerifier [0x00E1CC16+1077110]
+	Ordinal0 [0x00BF3206+1782278]
+	Ordinal0 [0x00BFC3BB+1819579]
+	Ordinal0 [0x00BFC523+1819939]
+	Ordinal0 [0x00C12B45+1911621]
+	BaseThreadInitThunk [0x76CAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A1E+238]
+
+
