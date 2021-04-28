@@ -12,8 +12,8 @@ public class AddCartTestScript extends Driver {
     @Test(dataProvider = "aDdToCaRt", dataProviderClass = DP_Login.class)
     public void AddToCart(String prdt) throws InterruptedException {
         AddCart addCart = new AddCart(driver);
-        int cartnumber = addCart.cartnum();
-        Assert.assertEquals(cartnumber, 0);
+        int cartNumber = addCart.cartnum();
+        Assert.assertEquals(cartNumber, 0);
         Search search = new Search(driver);
         //searchItemfun
         search.searchItem(prdt);
