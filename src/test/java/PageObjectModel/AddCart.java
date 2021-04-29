@@ -12,23 +12,23 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class AddCart extends Driver {
-    //cartcountlocator
+    //cartCountLocator
     @FindBy(id = "nav-cart-count")
-    private WebElement cartnumber;
+    private WebElement cartNumber;
 
     public AddCart(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
     //getCartCount
-    public int cartnum() {
+    public int cartNum() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        int cartnumbr = Integer.parseInt(cartnumber.getText());
-        return cartnumbr;
+        int cart_number = Integer.parseInt(cartNumber.getText());
+        return cart_number;
     }
 
-    //tabchange
-    public void tabchange() {
+    //tabChange
+    public void tabChange() {
         ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
     }
@@ -43,8 +43,8 @@ public class AddCart extends Driver {
     //clickAddToCart
     public void clickAddToCart() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement add_cartlocation = driver.findElement(By.id("add-to-cart-button"));//add item to cart
-        add_cartlocation.click();
+        WebElement add_cartLocation = driver.findElement(By.id("add-to-cart-button"));//add item to cart
+        add_cartLocation.click();
         Thread.sleep(5000);
     }
 

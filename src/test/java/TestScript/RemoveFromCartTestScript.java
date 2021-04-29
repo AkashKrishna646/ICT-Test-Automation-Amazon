@@ -13,7 +13,7 @@ public class RemoveFromCartTestScript extends Driver {
     @Test(dataProvider = "aDdToCaRt", dataProviderClass = DP_Login.class)
     public void removeFromCart(String product) throws InterruptedException {
         AddCart addCart = new AddCart(driver);
-        int cartNum = addCart.cartnum();
+        int cartNum = addCart.cartNum();
         Assert.assertEquals(cartNum, 0);
         Search search = new Search(driver);
         //searchItemFunction
