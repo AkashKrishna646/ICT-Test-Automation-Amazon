@@ -7,32 +7,32 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ValidPinCode {
     @FindBy(xpath = "//span[@id='glow-ingress-line2']")
-    private WebElement slctyradrs;
+    private WebElement selectYourAddress;
     @FindBy(xpath = "//input[@id='GLUXZipUpdateInput']")
-    private WebElement enterapincode;
+    private WebElement enter_A_PinCode;
     @FindBy(xpath = "//input[@aria-labelledby='GLUXZipUpdate-announce']")
-    private WebElement applyclick;
+    private WebElement applyClick;
     @FindBy(xpath = "//span[@id='glow-ingress-line2']")
-    private WebElement headerpincode;
+    private WebElement headerPinCode;
 
     public ValidPinCode(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    public void selectyouraddressclick() {
-        slctyradrs.click();
+    public void selectYourAddressClick() {
+        selectYourAddress.click();
     }
 
-    public void Enterpincode(String pincode) throws InterruptedException {
+    public void EnterPinCode(String pinCode) throws InterruptedException {
         Thread.sleep(4000);
-        enterapincode.sendKeys(pincode);
-        applyclick.click();
+        enter_A_PinCode.sendKeys(pinCode);
+        applyClick.click();
     }
 
-    public String Validateheaderpincode() throws InterruptedException {
+    public String ValidateHeaderPinCode() throws InterruptedException {
         Thread.sleep(4000);
-        String Headerpincode = headerpincode.getText();
-        String Hedrpincd = Headerpincode.replaceAll("[^0-9]", "");
-        return Hedrpincd;
+        String HeaderPinCode = headerPinCode.getText();
+        String headerPinCode = HeaderPinCode.replaceAll("[^0-9]", "");
+        return headerPinCode;
     }
 }

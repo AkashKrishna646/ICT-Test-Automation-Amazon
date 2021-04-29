@@ -11,13 +11,13 @@ import java.util.concurrent.TimeUnit;
 
 public class SortPriceHighToLowTestScript extends Driver {
     @Test(dataProvider = "ValidSearch", dataProviderClass = DP_Login.class)
-    public void Sort(String pdt) throws InterruptedException {
+    public void Sort(String product) throws InterruptedException {
         Search search = new Search(driver);
-        search.searchItem(pdt);
+        search.searchItem(product);
         SortPriceHighToLow sorting = new SortPriceHighToLow(driver);
-        sorting.SetHightoLow();
+        sorting.SetHighToLow();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        String text = sorting.extracthightolow();
+        String text = sorting.extractHighToLow();
         Assert.assertEquals(text, "Sort by:Price: High to Low");
     }
 }

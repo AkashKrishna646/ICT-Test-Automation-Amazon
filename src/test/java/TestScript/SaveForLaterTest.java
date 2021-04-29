@@ -15,7 +15,7 @@ public class SaveForLaterTest extends Driver {
         Search search = new Search(driver);
         //searchItemFunc
         search.searchItem(product);
-        //resultPageFunc
+        //resultPageFunction
         String searchResult = search.CheckResultPage();
         //verifyUserShouldBeInCorrectPage
         Assert.assertEquals(searchResult, product);

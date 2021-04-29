@@ -25,19 +25,19 @@ public class Common_for_Cart extends Driver {
         Common_for_Cart.click();
     }
 
-    //crct prdt
+    //correct product
     public String checkProductItem() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement prdtname = driver.findElement(By.xpath("//span[@id='productTitle']"));
-        String result = prdtname.getText();
+        WebElement productName = driver.findElement(By.xpath("//span[@id='productTitle']"));
+        String result = productName.getText();
         return result;
     }
 
     //item list gettext
     public String itemList() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        String rst = Common_for_Cart.getText();
-        return rst;
+        String result = Common_for_Cart.getText();
+        return result;
     }
 
     public void change_Tab() {

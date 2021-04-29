@@ -39,7 +39,7 @@ public class DP_Login {
         };
     }
 
-    @DataProvider(name = "InValidPincode")
+    @DataProvider(name = "InValidPinCode")
     public static Object[][] dataProvider_Invalid_PinCode() {
         return new Object[][]{
                 {"1234"}

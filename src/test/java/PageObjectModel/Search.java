@@ -20,7 +20,7 @@ public class Search {
         PageFactory.initElements(driver, this);
     }
 
-    //searchItemfunc
+    //searchItemFunction
     public void searchItem(String search_item) throws InterruptedException {
         search.sendKeys(search_item);
         Thread.sleep(2000);
@@ -28,10 +28,10 @@ public class Search {
         Thread.sleep(4000);
     }
 
-    //result_pagefunc
+    //result_pageFunction
     public String CheckResultPage() {
-        String rlt = result_page.getText();
-        rlt = rlt.replaceAll("^[\"']+|[\"']+$", "");
-        return rlt;
+        String result = result_page.getText();
+        result = result.replaceAll("^[\"']+|[\"']+$", "");
+        return result;
     }
 }

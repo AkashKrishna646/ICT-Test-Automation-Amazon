@@ -13,23 +13,23 @@ public class SortPriceHighToLow {
     @FindBy(xpath = "//span[@id='a-autoid-0-announce']")
     private WebElement sortBy;
     @FindBy(xpath = "//a[@id='s-result-sort-select_2']")
-    private WebElement hightolowclick;
+    private WebElement highToLowClick;
     @FindBy(xpath = "//span[@id='a-autoid-2-announce']")
-    private WebElement getTexthightolow;
+    private WebElement getTextHighToLow;
 
 
     public SortPriceHighToLow(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    public void SetHightoLow() throws InterruptedException {
+    public void SetHighToLow() throws InterruptedException {
         sortBy.click();
         //Thread.sleep(2000);
-        hightolowclick.click();
+        highToLowClick.click();
     }
 
-    public String extracthightolow() {
-        String HighToLow = getTexthightolow.getText();
+    public String extractHighToLow() {
+        String HighToLow = getTextHighToLow.getText();
         System.out.println(HighToLow);
         return HighToLow;
     }

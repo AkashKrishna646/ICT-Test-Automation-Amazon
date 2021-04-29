@@ -11,47 +11,47 @@ import org.testng.annotations.Test;
 
 public class RemoveFromCartTestScript extends Driver {
     @Test(dataProvider = "aDdToCaRt", dataProviderClass = DP_Login.class)
-    public void removeFROMcart(String prdt) throws InterruptedException {
+    public void removeFromCart(String product) throws InterruptedException {
         AddCart addCart = new AddCart(driver);
-        int crtnum = addCart.cartnum();
-        Assert.assertEquals(crtnum, 0);
+        int cartNum = addCart.cartnum();
+        Assert.assertEquals(cartNum, 0);
         Search search = new Search(driver);
-        //searchitemfun
-        search.searchItem(prdt);
-        //resultpagefunc
-        String Srchrslt = search.CheckResultPage();
-        //verifyUsershouldbeincorrectpage
-        Assert.assertEquals(Srchrslt, prdt);
+        //searchItemFunction
+        search.searchItem(product);
+        //resultPageFunction
+        String searchResult = search.CheckResultPage();
+        //verifyUserShouldBeInCorrectPage
+        Assert.assertEquals(searchResult, product);
         Common_for_Cart Common_for_Cart = new Common_for_Cart(driver);
         //item list gettext
-        String itemlist = Common_for_Cart.itemList();
+        String itemList = Common_for_Cart.itemList();
         //clicking in item list
         Common_for_Cart.Common_for_Cart();
         //change_Tab
         Common_for_Cart.change_Tab();
-        //getcorrectproducttext
-        String crctitm = Common_for_Cart.checkProductItem();
-        //checkingPrdtDetailsMatchWithItemdetails
-        Assert.assertEquals(crctitm, itemlist);
-        //clickingAddtoCart
+        //getCorrectProductText
+        String correctItem = Common_for_Cart.checkProductItem();
+        //checkingProductDetailsMatchWithItemDetails
+        Assert.assertEquals(correctItem, itemList);
+        //clickingAddToCart
         addCart.clickAddToCart();
-        RemoveFromCart rmvfrmcrt = new RemoveFromCart();
+        RemoveFromCart removeFromCart = new RemoveFromCart();
         //clickCart
-        rmvfrmcrt.cartclick();
+        removeFromCart.cartclick();
         //getCartPageItem
-        String cartitem = rmvfrmcrt.CartPageItem();
-        //checkPrdtandCartpageproduct
-        Assert.assertEquals(cartitem, crctitm);
+        String cartItem = removeFromCart.CartPageItem();
+        //checkProductAndCartPageProduct
+        Assert.assertEquals(cartItem, correctItem);
         //click delete
-        rmvfrmcrt.delete();
-        //getemptmsgisPresent
-        boolean emptymsg = rmvfrmcrt.isemptymsgpresent();
-        //checkemptymsgispresent
-        Assert.assertEquals(emptymsg, true);
-        //getcartcount
-        String cartnumber = rmvfrmcrt.cartcount();
-////        //checkcartcountiszero
-        Assert.assertEquals(cartnumber, "0");
+        removeFromCart.delete();
+        //getEmptyMsgIsPresent
+        boolean emptyMsg = removeFromCart.isemptymsgpresent();
+        //checkEmptyMsgIsPresent
+        Assert.assertEquals(emptyMsg, true);
+        //getCartCount
+        String cartNumber = removeFromCart.cartcount();
+////        //checkCartCountIsZero
+        Assert.assertEquals(cartNumber, "0");
 
     }
 }

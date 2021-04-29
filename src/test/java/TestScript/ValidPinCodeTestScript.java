@@ -10,9 +10,9 @@ public class ValidPinCodeTestScript extends Driver {
     @Test(dataProvider = "PinCode", dataProviderClass = DP_Login.class)
     public void pinCodeValidate(String pinCode) throws InterruptedException {
         ValidPinCode ValidPinCode = new ValidPinCode(driver);
-        ValidPinCode.selectyouraddressclick();
-        ValidPinCode.Enterpincode(pinCode);
-        String extractPinCode = ValidPinCode.Validateheaderpincode();
+        ValidPinCode.selectYourAddressClick();
+        ValidPinCode.EnterPinCode(pinCode);
+        String extractPinCode = ValidPinCode.ValidateHeaderPinCode();
         Assert.assertEquals(extractPinCode, pinCode);
     }
 }
